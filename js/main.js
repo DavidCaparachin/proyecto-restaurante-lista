@@ -13,7 +13,7 @@ links.forEach(function (link) {
 		content.classList.add('animate__fadeOutUp');
 		content.classList.add('animate__animated');
 		setTimeout(function () {
-			location.href = '/boletines';
+			location.href = '/proyecto-restaurante-lista';
 		}, 600);
 
 		return false;
